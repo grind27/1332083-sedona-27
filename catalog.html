@@ -19,10 +19,69 @@
       </nav>
     </header>
     <main class="hotel_search">
+      <section class="criterion">
+  			<form class="filter" action="https://echo.htmlacademy.ru" method="get">
+  				<fieldset class="filter-hotel">
+  					<legend class="legend">Инфраструктура</legend>
+            <ul class="search-criterion">
+  						<li>
+  							<input type="checkbox" name="pool" id="pool" checked>
+  							<label for="pool">Бассейн</label>
+  						</li>
+  						<li>
+  							<input type="checkbox" name="parking" id="parking">
+  							<label for="parking">Парковка</label>
+  						</li>
+  						<li>
+  							<input type="checkbox" name="wi-fi" id="wi-fi">
+  							<label for="wi-fi">Wi-Fi</label>
+  						</li>
+  					</ul>
+  				</fieldset>
+          <fieldset>
+					<legend class="legend">Тип жилья:</legend>
+					<ul class="search-criterion">>
+						<li>
+							<input type="checkbox" name="hotel" id="hotel" checked>
+							<label for="hotel">Гостиница</label>
+						</li>
+						<li>
+							<input type="checkbox" name="motel" id="motel" checked>
+							<label for="motel">Мотель</label>
+						</li>
+						<li>
+							<input type="checkbox" name="apartments" id="apartments" checked>
+							<label for="apartments">Аппартаменты</label>
+						</li>
+					</ul>
+				</fieldset>
+        <fieldset class="cost">
+          <legend class="legend">Стоимость в сутки (Р):</legend>
+          <input type="text" id="min-cost" name="min-cost" value="от 0">
+          <input type="text" id="max-cost" name="max-cost" value="до 3000">
+          <input type="range" name="range" id="range" min="0" max="3000" step="1">
+          <button type="submit">Показать</button>
+        </fieldset>
+      </section>
+      <section class="found">
+      <h2>Найдено: 3</h2>
+      <p class="sort">Сортировка:</p>
+      <ul class="filtering">
+        <li>
+          <span>По цене</span>
+        </li>
+				<li>
+					<span>По типу</span>
+				</li>
+				<li>
+					<span>По рейтингу</span>
+				</li>
+			</ul>
+    </section>
       <article>
         <a href="#"><img src="img/hotel-picture1.jpg" width="135" height="90" alt="Гостиница Amara Resort&Spa"></a>
         <div>
-          <h1>Amara Resort & Spa</h1>
+          <h3>Amara Resort & Spa</h3>
           <p class="hotel_description">Гостиница</p>
           <a href="#">Подробнее</a>
           <p class="hotel_price">От 4000 Р.</p>
@@ -39,7 +98,7 @@
       <article>
         <a href="#"><img src="img/hotel-picture2.jpg" width="135" height="90" alt="Мотель Desert Quail Inn"></a>
         <div>
-          <h1>Desert Quail Inn</h1>
+          <h3>Desert Quail Inn</h3>
           <p class="hotel_description">Отель</p>
           <a href="#">Подробнее</a>
           <p class="hotel_price">От 3000 Р.</p>
@@ -55,7 +114,7 @@
       <article>
         <a href="#"> <img src="img/hotel-picture3.jpg" width="135" height="90" alt="Апартаменты Villas at Poco Diablo"></a>
         <div>
-          <h1>Villas At Poco Diablo</h1>
+          <h3>Villas At Poco Diablo</h3>
           <p class="hotel_description">Апартаменты</p>
           <a href="#">Подробнее</a>
           <p class="hotel_price">От 2000 Р.</p>
