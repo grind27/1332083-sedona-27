@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans;
+
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #f2f2f2;
+}
+a {
+  text-decoration: none;
+}
+.header_nav {
+   font-weight: bold;
+   line-height: 26px;
+   color: #000000;
+   background-color: #ffffff;
+ }
+ .header_ul {
+   list-style: none;
+ }
+ .header_nav a:hover,
+ .header_nav a:focus {
+   background-color: #81b3d2;
+ }
+ .welcome {
+  background-image: url("../img/polygon.png"),
+  url("../img/background-photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+ .reasons {
+   text-align: center;
+ }
+ .reasons b {
+   font-size: 21px;
+   line-height: 26px;
+   font-weight: bold;
+   text-align: center;
+ }
+ .welcome_reasons {
+   font-size: 14px;
+   line-height: 26px;
+   color: #333333;
+ }
+.check-in b {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+.check-in p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+}
+.hotel_search submit {
+  background-color: #81b3d2;
+}
+.footer-tag a:hover,
+.footer-tag a:focus {
+  text-decoration: none;
+}
+.footer-tag ul {
+  text-align: center;
+  list-style: none;
+}
+.copyright-website {
+  text-align: center;
+}
+.h3 {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  text-align: left;
+}
+.hotel_description {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
+}
+.hotel_price {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
+}
+.mark {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
