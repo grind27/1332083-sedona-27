@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic');
 body {
   margin: 0;
   padding: 0;
@@ -47,6 +48,35 @@ a {
    line-height: 26px;
    color: #333333;
  }
+.reason-wrapper {
+  background-color: #81b3d2;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+.h3-reason-wrapper {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+.sub-reason b {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+.sub-reason p {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+}
+.gray-background {
+  background-color: #eeeeee;
+}
 .check-in b {
   font-size: 30px;
   line-height: 36px;
@@ -74,7 +104,12 @@ a {
 .copyright-website {
   text-align: center;
 }
-.h3 {
+
+/*catalog*/
+.legend {
+
+}
+.hotel_name {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;

@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title> Главная HTML Academy: Седона</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
   <header class="header">
@@ -30,7 +33,7 @@
     </section>
     <section class="reason-wrapper">
       <div class="reason">
-        <h3>Настоящий городок</h3>
+        <h3 class="h3-reason-wrapper">Настоящий городок</h3>
         <p>&ndash;&#8470;1&ndash;</p>
         <p>Седона &ndash; не аттракцион для туристов, там течёт своя жизнь</p>
       </div>
@@ -54,15 +57,16 @@
     <section class="reason-wrapper">
       <div class="reason">
         <img src="img/layer-5.jpg" width="800" height="256" alt="Мост дьявола">
-        <h3>Там есть мост дьявола</h3>
+        <h3 class="h3-reason-wrapper">Там есть мост дьявола</h3>
         <p>&ndash;&#8470;2&ndash;</p>
         <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
       </div>
     </section>
-    <section class="sub-reason">
-      <h2 class="visually-hidden">Достопримечательности</h2>
-      <div class="reason">
-        <h3>Небольшая площадь</h3>
+    <div class="gray-background">
+      <section class="sub-reason">
+        <h2 class="visually-hidden">Достопримечательности</h2>
+        <div class="reason">
+          <h3>Небольшая площадь</h3>
           <p>&ndash;&#8470;3&ndash;</p>
           <p>Все достопримечательности находятся очень близко</p>
         </div>
@@ -77,8 +81,9 @@
           <p>Большинство едет в гранд каньон и толпится там</p>
         </div>
       </section>
-      <section class="check-in">
-        <h2 class="visually-hidden">Забронировать</h2>
+    </div>
+    <section class="check-in">
+      <h2 class="visually-hidden">Забронировать</h2>
         <b>Заинтересовались?</b>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
         <form class="hotel-search" action="https://echo.htmlacademy.ru" method="get">
