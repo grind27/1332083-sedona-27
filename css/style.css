@@ -107,7 +107,42 @@ a {
 
 /*catalog*/
 .legend {
-
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21px;
+  text-align: left;
+  color: #ffffff;
+}
+.search-criterion {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
+  color: #ffffff;
+}
+.found h2 {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  text-align: left;
+  color: #000000;
+}
+.sort {
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+}
+.filter-blue {
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+  color: #81b3d2;
+}
+.filter-gray {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.3);
 }
 .hotel_name {
   font-size: 21px;
